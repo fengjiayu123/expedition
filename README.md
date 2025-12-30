@@ -49,16 +49,22 @@ Explorer Features:
 <!-- getting started with the project -->
 ## Getting Started
 ### Prerequisites
-- node `v10.15.3` or later
-- npm `v6.4.1` or later
+- node `v16.19.0`
+- npm `v8.19.3` 
 
 ### Installation
 Clone/ download the project, and install dependencies.
 ```bash
 git clone https://github.com/xops/expedition.git && cd expedition && npm install
 ```
-
 <!-- example usage, screen shots, demos -->
+1.新增配置项：在配置文件中添加了以下私有网络相关配置：
+name: "feng",
+network: "private",
+rpc: ["http://localhost:8545"],
+chainId: 8888
+2.影响范围：该配置仅用于连接指定的私有以太坊网络，不影响项目原有功能和公共网络连接能力
+
 ## Usage
 
 ### Start the explorer
