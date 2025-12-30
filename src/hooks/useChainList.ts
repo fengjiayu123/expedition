@@ -13,6 +13,7 @@ export default function() {
       rpc: ["http://localhost:8545"],
       chainId:8888
     },
+
     {
       name: "Ethereum Classic",
       network: "mainnet",
@@ -29,7 +30,6 @@ export default function() {
       rpc: ["https://rpc-mumbai.matic.today"],
     },
   ]);
-
   // uncomment once we add 'chain list provider' concept. This list blows.
 
   // useEffect(() => {

@@ -58,7 +58,7 @@ Clone/ download the project, and install dependencies.
 git clone https://github.com/xops/expedition.git && cd expedition && npm install
 ```
 <!-- example usage, screen shots, demos -->
-1.新增配置项：在配置文件中添加了以下私有网络相关配置：
+1.新增了配置项：在配置文件中添加了以下私有网络相关配置：
 name: "feng",
 network: "private",
 rpc: ["http://localhost:8545"],
